@@ -1,0 +1,123 @@
+# productLanding.html
+Project on product Landing page
+
+
+
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="./ProductLanding.css">
+
+<head>
+    <title>Product Landing page</title>
+
+</head>
+
+<body>
+    <div id="page-wrapper">
+        <header id="header">
+            <div class="logo">
+                <img id="header-img" src="https://us.123rf.com/450wm/alekseyvanin/alekseyvanin1705/alekseyvanin170500080/77417111-coffee-maker-icon-vector-filled-flat-sign-solid-pictogram-isolated-on-white-symbol-logo-illustration.jpg?ver=6" alt="Coorgi coffe logo" />
+            </div>
+
+            <nav id="nav-bar">
+                <ul>
+                    <li><a class="nav-link" href="#features">Features</a></li>
+                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="container"></div>
+
+        <section id="hero">
+            <h2>Sign Up to get the best deal for your coffe maker</h2>
+            <form id="form" action="https://www.freecodecamp.com/email-submit">
+                <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                <input id="submit" type="submit" value="Get Started" class="btn" />
+            </form>
+        </section>
+
+        <div class="container">
+            <section id="features">
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-fire"></i></div>
+                    <div class="desc">
+                        <h2>Premium Materials</h2>
+                        <p>
+                            The new Coorgi® C-Mini™ single serve coffee maker features a new sleek design, and at less than 13 cm (5 in) wide is the perfect size for any space or occasion. The K‑Mini™ brewer is effortlessly simple to use - just add fresh water to the reservoir,
+                            pop in your favorite C‑Cup® pod, press the brew button and enjoy fresh brewed, delicious coffee in minutes.</p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon"><i class="fa fa-3x fa-truck"></i></div>
+                    <div class="desc">
+                        <h2>Fast Shipping</h2>
+                        <p>
+                            You will receive your Coorgi® deleivered same day you order it. We also provide free returns if you are not satisfied.
+                        </p>
+                    </div>
+                </div>
+                <div class="grid">
+                    <div class="icon">
+                        <i class="fa fa-3x fa-battery-full" aria-hidden="true"></i>
+                    </div>
+                    <div class="desc">
+                        <h2>Quality Assurance</h2>
+                        <p>
+                            For every purchase you make, we will ensure there are no damages or faults and we will check the product functionality before it is delivered to you.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="how-it-works">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jAQ_0IHwzqw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </section>
+            <section id="pricing">
+                <div class="product" id="tenor">
+                    <div class="level">Coorgi® C-Mini Plus® Single Serve Coffee Maker</div>
+                    <h2>$99.99</h2>
+                    <ol>
+                        <li>Less than 5" wide.</li>
+                        <li>Brew any cup size between 6-12oz.</li>
+                        <li>Easy cleaning and filling.</li>
+                        <li>Coffee made in minutes.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="bass">
+                    <div class="level">Coorgi® C155 OfficePRO® Premier Brewing System</div>
+                    <h2>$249.95</h2>
+                    <ol>
+                        <li>Office coffe maker.</li>
+                        <li>4 cups coffe size: 4, 6, 8, 10, 12oz.</li>
+                        <li>90 oz reservoir.</li>
+                        <li>Less than 1 minute brew time.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+                <div class="product" id="valve">
+                    <div class="level">Coorgi® C-Mini Plus® Dunkin' Donuts® Bundle</div>
+                    <h2>$99.99</h2>
+                    <ol>
+                        <li>Less than 6" wide.</li>
+                        <li>Brew any cup size between 6-10oz.</li>
+                        <li>Easy cleaning and filling.</li>
+                        <li>Brew within 1 minute.</li>
+                    </ol>
+                    <button class="btn">Select</button>
+                </div>
+            </section>
+            <footer>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+                <span>Copyright 2019, </span>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
